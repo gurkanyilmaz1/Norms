@@ -1,0 +1,22 @@
+5 0
+-1 2 V2*V1 R3*V2 R4-R3
+
+L 0 0 0 B1+R1CA3
+L 0 B1+R1CA3 R1-V2 B1+V2
+L R1-V2 B1+V2 H1+R2-V4 B1+V2
+L H1+R2-V4 B1+V2 H1+R2-V4 V5
+C H1+R2-R3 V5 R3*V1
+L H1+R2 V5 H1+R2 V3
+C H1+R2-R3 V3 R3*V1
+L H1+R2-V4 V3 R1-V2 V3
+L R1-V2 V3 0 R1*V1
+L 0 R1*V1 0 0
+E H1+R2 V3-R3 H1+R2 R4
+
+
+T type PL <type102>
+W 0 AH-36 0
+H T1 COL703 H1 H= B1 t= ROT Ang=
+D TY "type PL <type102>" [
+R1 "Radius cornerhole: " R2 "Gap at top profile/cutout: " [
+R3 "Radius cutout: " R4 "Gap at width profile/cutout: "

@@ -1,0 +1,18 @@
+9 0
+-1 10 25 20 50 1.5 100 60 V5-V2 
+L 0 0 0 V5
+L 0 V5 H1+V3 V5
+C ? ? V3*V1
+L H1+V3 V5 H1+V3 0
+L H1+V3 0 H1+V3 V9*V1
+C ? ? V3*V1
+L H1+V3 V9*V1 0 V9*V1
+L 0 V9*V1 0 0
+E 0 V9*V1 H1+V3 V5
+
+T Cutout with collarplate (Typ109)
+H T1 Collar702 H1 H= B1 t=
+W 0 GR-A 0
+D TY "Cutout with collarplate (Typ109)" [
+V3 "Radius: " R1+V5+VL-V3 "Width of cutout: " [
+V3 "Gap at top profile/cutout: "
